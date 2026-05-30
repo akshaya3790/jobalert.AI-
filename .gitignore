@@ -1,0 +1,53 @@
+# ========================
+# Secrets & Environment
+# ========================
+.env
+*.env
+.env.*
+!.env.example
+
+# ========================
+# Python Virtual Environments
+# ========================
+backend/venv/
+backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ========================
+# Local JSON Data Files
+# (Ephemeral per-user data — not for version control)
+# ========================
+backend/jobs_db.json
+backend/user_profile.json
+backend/email_logs.json
+backend/scan_logs.json
+backend/applications.json
+backend/temp/
+
+# ========================
+# Frontend Build & Dependencies
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# ========================
+# IDE & OS Files
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# ========================
+# Scratch & test files
+# ========================
+scratch/
+test_resume.txt

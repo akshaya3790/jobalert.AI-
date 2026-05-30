@@ -1,0 +1,10 @@
+/* Reset and simple overrides to prevent Vite boilerplate conflicts */
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  text-align: left !important;
+  box-sizing: border-box;
+}
